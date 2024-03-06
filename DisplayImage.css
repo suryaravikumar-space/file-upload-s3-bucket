@@ -1,0 +1,16 @@
+.image-container {
+    /* Apply styles to the container */
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Hide overflow content */
+  }
+  
+  .image-container img {
+    /* Apply styles to the image */
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline display */
+  }
+  
